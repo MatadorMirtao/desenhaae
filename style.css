@@ -1,0 +1,38 @@
+body{
+    background-color: green;
+}
+
+h1{
+    background-color: white;
+    color: green;
+}
+
+#show_sketch{
+    float: right;
+}
+
+#label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+#confidence{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+canvas{
+ border: 5px solid white;
+ border-radius: 20px;
+ animation-name: example;
+ animation-duration: 4s;
+ margin-top: 50px;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example {
+from {box-shadow: 1px 1px 38px grey;}
+to {box-shadow: 1px 1px 38px white;}
+}
